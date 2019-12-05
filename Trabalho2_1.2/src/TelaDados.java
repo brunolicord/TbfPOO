@@ -74,13 +74,11 @@ public class TelaDados extends JFrame {
 		while (pessoasAsIterator.hasNext()){
                PessoaModel it = pessoasAsIterator.next();  
                for(int i = 0 ; i<pessoas.size(); i++) {
-            	  
+            	  //testando aqui
                }
                
         }
-		
-		//String [] colunas = {"Nome", "Cpf", "Curso", "Matrícula"};
-		
+
 		JLabel lblAlunosCasdastrar = new JLabel("Alunos Cadastrados");
 		lblAlunosCasdastrar.setFont(new Font("Century Schoolbook L", Font.BOLD, 18));
 		lblAlunosCasdastrar.setBounds(122, 0, 199, 26);
